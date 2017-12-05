@@ -1,0 +1,102 @@
+ h1 {
+	font-size: 60px;
+	
+font-family: 'Bungee', cursive;
+	color: white;
+	text-shadow: #333 0 0 10px;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   /* -webkit-transform: rotate(-50deg);*/
+    position: relative;
+    bottom: 200px;
+    /*right: 180px;*/
+   text-decoration: underline;
+    
+}
+
+  @-webkit-keyframes glow {
+        from { text-shadow: 0 0 0px darkblue; }
+        to { text-shadow: 0 0 20px white; }
+    }
+
+h2 {
+	font-size: 50px;
+	padding: 10px;
+font-family: 'Electrolize', sans-serif;
+	color: #333;
+	position: relative;
+	top: 350px;
+	left: 0px;
+	text-shadow: darkblue 0 0 10px;
+	background-color: rgba(245,245,245,0.8);
+	/*-webkit-animation-duration: 1s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+*/
+}
+/* @-webkit-keyframes glow {
+        from { text-shadow: 0 0 0px red; }
+        to { text-shadow: 0 0 20px red; }
+    }*/
+
+
+
+
+
+
+
+body {
+	width: 720px;
+	height: 1280px;
+	background-image: url("../img/pc2.jpg");
+
+}
+.container {
+	width: 670px;
+	height: 1230px;
+	margin-left: 20%;
+    margin-top: 60%;
+	/*background: whitesmoke;*/
+}
+
+.container img {
+	width: 700px;
+	height: 600px;
+}
+
+.container a {
+font-family: 'Fjalla One', sans-serif;
+color: white;
+background: #333;
+text-decoration: none;
+font-size: 50px;
+padding: 10px 20px;
+position: relative;
+bottom: 250px;
+}
+
+.container a:hover {
+
+color: white;
+background: blue;
+
+}
+
+article {
+	position: relative;
+    bottom: 580px;
+}
+
+/*end*/
+
